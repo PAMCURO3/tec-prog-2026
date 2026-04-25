@@ -1,4 +1,0 @@
-Hola este es mi primer archivo de prueba usando git y github
-Esta es mi modificación en el archivo
-hoy voy a practicar de nuevo
-este es el segundo intento
