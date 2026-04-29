@@ -7,3 +7,4 @@ mi primera línea de programación
 "git push origin master" sube los cambios a GitHub
 
 En visual Studio Code para modificar y guardar hay que tocar ctrl+s 
+rm sirve para borrar pero hay que tener cuidado con lo que borra porque puede borrar hasta el Sistema operativo
