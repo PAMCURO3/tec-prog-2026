@@ -9,3 +9,8 @@ git diff (para indicar cual es la linea que se ha modificado y en qué archivo)
 cat (es para leer algo dentro del archivo )
 En visual Studio Code para modificar y guardar hay que tocar ctrl+s 
 rm sirve para borrar pero hay que tener cuidado con lo que borra porque puede borrar hasta el Sistema operativo
+
+git checkout (para deshacer cambios)
+git log --oneline (nos muestra los commit realizados en códigos podemos utilizarlo para volver al cambio que queramos)
+    se copia el codigo se coloca git checkout y se copia el codigo
+    
