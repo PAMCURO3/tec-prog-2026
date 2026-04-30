@@ -6,6 +6,6 @@ mi primera línea de programación
 "git commit -m " indicamos los códigos a utilizar en gitbash" " guarda los cambios localmente
 "git push origin master" sube los cambios a GitHub
 git diff (para indicar cual es la linea que se ha modificado y en qué archivo)
-
+cat (es para leer algo dentro del archivo )
 En visual Studio Code para modificar y guardar hay que tocar ctrl+s 
 rm sirve para borrar pero hay que tener cuidado con lo que borra porque puede borrar hasta el Sistema operativo
