@@ -1,0 +1,17 @@
+Para generar tipo cadena en Java se comienza con mayuscula por ejemplo
+String para hacer el saludo
+Java es muy sensible al tema de mayusculas y minusculas
+"String saludo= "Hola Mundo";
+Las variables pueden cambiar de valor en Java
+
+long / short/ chart/ boolean/ string/ por default son false- booleano es verdadero o falso true or false
+int es para inicializar
+para los enteros la variable es int, y para los reales es double
+Chart para caracteres 
+boolean m=true
+double salario=137.5
+float flotante para numeros cortos
+long para numeros largos
+constantes no cambian su valor por ejemplo la fecha de nacimiento de algo, son valores que no cambian se le agrega final
+VALOR_FINAL
+double final IVA_TIPO_1 = 0.16;
