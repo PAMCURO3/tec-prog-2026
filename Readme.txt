@@ -13,4 +13,4 @@ rm sirve para borrar pero hay que tener cuidado con lo que borra porque puede bo
 git checkout (para deshacer cambios)
 git log --oneline (nos muestra los commit realizados en códigos podemos utilizarlo para volver al cambio que queramos)
     se copia el codigo se coloca git checkout y se copia el codigo
-    
+    PARA VOLVER A UNO SIEMPRE SE MIRA EL CÓDIGO DEL COMMIT
