@@ -258,15 +258,18 @@ Revisar y ejecutar cada comando, hacerlo como practica
 
 Profesor Ariel Betancud
 
+```
 
-CLASE 4 MIÉRCOLES 6 DE MAYO DEL 2026
+# CLASE 4 MIÉRCOLES 6 DE MAYO DEL 2026
 Analizar cambios en los archivos de tu proyecto Git parte 4
 
-Ingresamos de la siguiente manera:
+* Ingresamos de la siguiente manera:
 
-Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.
+* Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.
 
 TAREA -> AGREGAR LOS COMENTARIOS EN LOS COMANDOS, PARA SABER QUE PASA CON CADA UNO.
+
+```sh
 
 cd tecnicatura
 

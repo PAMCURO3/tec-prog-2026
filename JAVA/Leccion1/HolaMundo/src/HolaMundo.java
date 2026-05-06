@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class HolaMundo {
 
     public static void main(String[] args) {
-        /*System.out.println("Hola Mundo desde Java");  
+            /*System.out.println("Hola Mundo desde Java");  
         
         int miVariable = 10;
         System.out.println(miVariable);
@@ -15,9 +15,9 @@ public class HolaMundo {
         System.out.println(miVariableCadena);
         miVariableCadena = "Sigamos creciendo en programación";
         System.out.println(miVariableCadena);
-         */
-        //Var- Inferencia tipos en Java
-        /*var miVariableEntera2 = 10;
+             */
+            //Var- Inferencia tipos en Java
+            /*var miVariableEntera2 = 10;
         var miVariableCadena2 = "Seguimos estudiando";
         System.out.println("miVariableEntera2 = " + miVariableEntera2);
         System.out.println("miVariableCadena2 = " + miVariableCadena2);
@@ -47,16 +47,15 @@ public class HolaMundo {
         System.out.println("Comillas Simples: \'"+ nombre+"\'");
         System.out.println("Comillas doblres: \""+nombre+"\"");*/
 
-        //Clase scanner
-        /*Scanner entrada = new Scanner(System.in);
+            //Clase scanner
+            /*Scanner entrada = new Scanner(System.in);
         System.out.println("Digite su nombre: ");
         var usuario2 = entrada.nextLine();
         System.out.println("usuario2 = " + usuario2);
         System.out.println("Escriba el título: ");
         var titulo2 = entrada.nextLine();
         System.out.println("Resultado: "+titulo2+" "+usuario2);*/
-        
-       /* byte numEnteroByte = (byte)127;
+ /* byte numEnteroByte = (byte)127;
         System.out.println("numEnteroByte = " + numEnteroByte);
         System.out.println("Valor minimo del byte: "+ Byte.MIN_VALUE);
         System.out.println("Valor maximo del byte: "+ Byte.MAX_VALUE);
@@ -75,17 +74,47 @@ public class HolaMundo {
         System.out.println("numEnteroLong = " + numEnteroLong);
         System.out.println("Valor minimo del Long: "+ Long.MIN_VALUE);
         System.out.println("Valor maximo del Long: "+ Long.MAX_VALUE);*/
-        
-       float numFloat = 3.4028235E38F;
+ /*float numFloat = 3.4028235E38F;
         System.out.println("numFloat = " + numFloat);
         System.out.println("El valor minimo de float: " + Float.MIN_VALUE);
         System.out.println("El valor maximo de float: " + Float.MAX_VALUE);
-        
         double numDouble = 1.7976931348623157E308;
         System.out.println("numDouble = " + numDouble);
         System.out.println("El valor minimo de Double: " + Double.MIN_VALUE);
-        System.out.println("El valor maximo de Double: " + Double.MAX_VALUE);
+        System.out.println("El valor maximo de Double: " + Double.MAX_VALUE);*/
+        //Inferencia de tipos var y tipos primitivos
+        //Las literales sin punto automáticamente son de tipo int
+        /*var numEntero = 20;
+        System.out.println("numEntero = " + numEntero);
+        var numFloat = 10.0F; //automaticamente con el punto decimal se convierte en double
+        System.out.println("numFloat = " + numFloat);
+        var numDouble = 10.0;
+        System.out.println("numDouble = " + numDouble);*/
+        //Tipor Primitivos char puede almacenar 1 solo caracter y lo hace con comillas
+        char miVariableChar = 'a';
+        System.out.println("miVariableChar = " + miVariableChar);
+        
+        char varCaracter = '\u0024'; //Indicamos a java la asignación con el código unicode
+        System.out.println("varCaracter = " + varCaracter);    
+        char varCaracterDecimal = 36; //Valor decimal del juego de caracter
+        System.out.println("varCaracterDecimal = " + varCaracterDecimal);
+        char VarCaracterSimbolo = '$'; //un caracter especial, podemos copiar y pegar desde unicode
+        System.out.println("VarCaracterSimbolo = " + VarCaracterSimbolo);
+        //Cualquier caracter que no tengamos lo podemos copiar del unicode. 
+        
+        var varCaracter1 = '\u0024'; //Indicamos a java la asignación con el código unicode
+        System.out.println("varCaracter1 = " + varCaracter1);    
+        var varCaracterDecimal1 = (char)36; //Valor entero y le asigna un tipo int
+        System.out.println("varCaracterDecimal1 = " + varCaracterDecimal1);
+        var VarCaracterSimbolo1 = '$'; //un caracter especial, podemos copiar y pegar desde unicode
+        System.out.println("VarCaracterSimbolo1 = " + VarCaracterSimbolo1);
+        
+        int varEnteroChar = '$';
+        System.out.println("varEnteroChar = " + varEnteroChar);
+        int caracterChar = 'b';
+        System.out.println("caracterChar = " + caracterChar);
         
         
-    }
-}
+        
+        }
+   } 
