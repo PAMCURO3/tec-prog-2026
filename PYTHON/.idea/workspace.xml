@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112d2228-1f1d-4610-b0b4-874d140e9a06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Leccion2/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PYTHON.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PYTHON.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjercicioValorRango.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOLA_Mundo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hola_Tecnicatura_Variables.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumeroMayor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OperadorOr_Not.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Or_Not_20-30Años.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tienda_de_libros.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio 1clase 3.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion2/Ejercicio1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion2/Ejercicio2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion2/Ejercicio3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion2/Ejercicio4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leccion2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion2/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +27,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3DbBPvIDpvOQDZSNDW2ZP9VKvoT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,14 +41,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Ejercicio1.executor": "Run",
+    "Python.Ejercicio2.executor": "Run",
+    "Python.Ejercicio3.executor": "Run",
+    "Python.Ejercicio4.executor": "Run",
     "Python.HOLA_Mundo.executor": "Run",
     "Python.ejercicio 1clase 3.executor": "Run",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Pamela/TEC PROG 2026/PYTHON/Leccion1"
   }
 }]]></component>
@@ -60,8 +61,35 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pamela\TEC PROG 2026\PYTHON\Leccion1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pamela\TEC PROG 2026\PYTHON\Leccion2" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration name="Ejercicio1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion2/Ejercicio1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON" />
       <option name="ENV_FILES" value="" />
@@ -88,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ejercicio1" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -111,5 +140,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Leccion2/main.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
