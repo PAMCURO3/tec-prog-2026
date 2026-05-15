@@ -14,5 +14,6 @@ public class DatoLibro {
         System.out.println("Tu libro favorito es: " + usuario1 + " y lo escribio " + titulo);
 
         entrada.close();
+        
     }
 }
