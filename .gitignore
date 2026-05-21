@@ -36,3 +36,27 @@ Thumbs.db
 *.log
 tmp/
 temp/
+
+# IntelliJ / PyCharm
+.idea/
+
+# Java
+*.class
+build/
+target/
+.gradle/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# JavaScript
+node_modules/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
