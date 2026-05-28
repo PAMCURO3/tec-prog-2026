@@ -45,6 +45,7 @@ temp/
 build/
 target/
 .gradle/
+.idea/
 
 # Python
 __pycache__/
