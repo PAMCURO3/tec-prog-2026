@@ -60,3 +60,6 @@ node_modules/
 # Sistema
 .DS_Store
 Thumbs.db
+/JAVA/Leccion1/Ejercicio5/nbproject/private/
+/JAVA/Leccion1/Ejercicio6/nbproject/private/
+/JAVA/Leccion1/Ejercicio7/nbproject/private/
