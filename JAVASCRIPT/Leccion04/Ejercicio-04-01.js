@@ -84,7 +84,3 @@ const fechaNacimiento2 = 2006;
 console.log(fechaNacimiento2);
 fechaNacimiento3 = 2003;
 console.log(fechaNacimiento3); //Solo se ejecuta el console anterior
-
-var nombre4 = "Pamela"
-nombre4 = "Pamelita"
-console.log(nombre4);
