@@ -15,7 +15,7 @@ nombre += apellido; //Terecera manera de concatenar usando el operador de simpli
 console.log(nombre);
 
 //hoy no se usa var se utiliza let y const
-let nombre2 = "pedro";
+let nombre2 = "Pedro";
 console.log(nombre2);
 
 const apellido2 = "Lepes";
@@ -28,7 +28,7 @@ let z = x + y; //se asigna el valor de la operacion
 console.log(z)
 
 let _1num = 31; // No utlizar números para iniciar el nombre de una variable
-let rompiendo = "rompe"; // No utilizar palabras reservadas para variables
+let rompiendo = "Rompe"; // No utilizar palabras reservadas para variables
 
 console.log(_1num)
 console.log(rompiendo)
