@@ -25,4 +25,4 @@ public class Ejercicio5 {
         
         System.out.println("La suma de sus calificaciones es: " +suma);
     }
-}
+} 
