@@ -1,5 +1,5 @@
 //Ejercicio 1: Calcular estacion del año
-let mes = 4
+let mes = 2
 let estacion; //Undefined
 if(mes == 1 || mes == 2 || mes == 12){
 	estacion = "Verano";
@@ -44,3 +44,22 @@ else{
 	mensaje = "valor incorrecto";
 }
 console.log(mensaje);
+
+//Estructura Switch (La sintaxis es igual a Java)
+switch(mes){// no solo se puede utilizar número, tambien cadenas
+    case 1: case 2: case 12: //utiliza comparacion estricta entre los numeros del caso y la variable
+        estacion = "Verano";
+        break;  
+    case 3: case 4: case 5://los casos son numericos
+        estacion = "Otoño";
+        break;  // rompe la estrutura switch cuando encuenta el caso    
+    case 6: case 7: case 8:
+        estacion = "Invierno";
+        break;    
+    case 9: case 10: case 11:
+        estacion = "Primavera";
+        break;   
+    default: //el default no necesita un break
+        estacion = "Valor Incorrecto"; 
+}
+console.log("Bienvenido a la estación de: "+estacion);
