@@ -27,4 +27,4 @@ public class Ejercicio2 {
 
         entrada.close();
     }
-}
+} 
