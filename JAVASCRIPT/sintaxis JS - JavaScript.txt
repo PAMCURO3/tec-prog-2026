@@ -38,3 +38,6 @@ Operador de aumento
 
 Operador de Decremento 
 --
+Operador lógico
+And -> && Doble aspersan
+Or -> 
