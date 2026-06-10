@@ -45,3 +45,11 @@ if( abuelita || viva){
 else{
     console.log("Si mi abuelita no se hubiera muerto estaría viva")
 }
+
+// operador ternario
+//Ejercicio mayor que
+let resultado2 = 3 > 2 ? "Verdadero" : "Falso";
+console.log("Verdadero") 
+let numero2 = 8;
+resultado2 = numero2 % 2 == 0 ? "Es un número PAR" : "Es un número IMPAR";
+console.log(resultado2)
