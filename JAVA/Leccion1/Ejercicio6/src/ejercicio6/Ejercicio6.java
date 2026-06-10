@@ -29,6 +29,6 @@ public class Ejercicio6 {
         System.out.println("Juan tiene:$ "+division2);
         
         
-    }
+    } 
     
 }
