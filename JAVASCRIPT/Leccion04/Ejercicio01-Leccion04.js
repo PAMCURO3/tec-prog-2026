@@ -42,16 +42,6 @@ switch (days) {
         break;
 }
 
-let days2 = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
-function getDay(n){
-    if(n < 1 || n > 7){
-        throw new error('Out of range');
-    }
-    return days[n-1];
-}
-console.log(getDay);
-
-
 let days3 = "1"; //un día en código duro
 switch (days3) {
     case "1":
@@ -79,3 +69,12 @@ switch (days3) {
         console.log("Error en el ingreso del día de la semana");
         break;
 }
+//esta es la opción mejorada
+let days2 = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+function getDay(n){
+    if(n < 1 || n > 7){
+        throw new error('Out of range');
+    }
+    return days2[n-1];
+}
+console.log(getDay(7));
