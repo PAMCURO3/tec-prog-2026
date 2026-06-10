@@ -25,17 +25,26 @@ resultado2 = numero2 % 2 == 0 ? "Es un número PAR" : "Es un número IMPAR";
 console.log(resultado2)
 
 //Video 33 8 - clase Convertir String a numero
-let miNumero = "17"; //Es una cadena
+let miNumero = "21"; //Es una cadena
 console.log(typeof miNumero);
 let edad2 = Number(miNumero); //esta es una funcion
 console.log(typeof edad2);// lo trasnformamos en nuemro a lo que era en cadena
 
-if(edad2 >= 18){
-    console.log("Puede votar")
+//funcion isNaN permite verificar el valor de una variable
+//de tipo numerica
+if(isNaN(edad2)){//No es un número = is Not a number (Devuelve un resultado booleano)
+    console.log("Esta variable no contiene solo numeros")
 }
 else{
-    console.log("No puede votar, es muy joven")
+    if(edad2 >= 18){
+        console.log("Puede votar")
+    }
+    else{
+        console.log("No puede votar, es muy joven")
+    }
 }
+
 //Operador ternario
 let resultado3 = edad2 >= 18 ? "Puede votar" : "No puede votar, es muy joven";
 console.log(resultado3);
+
