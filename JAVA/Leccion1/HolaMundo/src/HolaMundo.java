@@ -154,15 +154,57 @@ public class HolaMundo {
         //Convertir tipos primitivos en java parte 2
         // de un tipo entero a un tipo string
        
-       var edadTexto = String.valueOf(10);
-       System.out.println("edadTexto = " + edadTexto);
+ //      var edadTexto = String.valueOf(10);
+ //      System.out.println("edadTexto = " + edadTexto);
        
-       var fraseChar = "Programadores".charAt(4);
-       System.out.println("fraseChar = " + fraseChar);
+ //      var fraseChar = "Programadores".charAt(4);
+ //      System.out.println("fraseChar = " + fraseChar);
        
-        System.out.println("Digite un caracter: ");
-        fraseChar =entrada.nextLine().charAt(0);
-        System.out.println("fraseChar = " + fraseChar); 
-         
+ //       System.out.println("Digite un caracter: ");
+//        fraseChar =entrada.nextLine().charAt(0);
+ //       System.out.println("fraseChar = " + fraseChar); 
+ 
+ //       Operdores aritméticos
+          int num1 = 6 , num2 = 4; //No se puede asignar valor con la inferencia de tipo
+          var solucion = num1 + num2;
+         //System.out.println( num1 + num2);
+          System.out.println("Solucion de la suma = " + solucion);
+ 
+          
+          solucion = num1 - num2;
+          System.out.println("Solucion de la resta = " + solucion);
+          
+          solucion = num1 * num2;
+          System.out.println("solucion de la multiplicacion es = " + solucion);
+          
+          solucion = num1 / num2;
+          System.out.println("solucion de la division es = " + solucion);
+          
+          var solucion2 = 3.4 / num2;
+          System.out.println("Solucion2 resultado de la division ="+solucion2);
+          
+          solucion = num1 % num2; //guarda el residuo entero de la division
+          System.out.println("solucion = " + solucion);
+          
+          
+          if (num1 % 2 == 0)
+              System.out.println("El numero es PAR");
+          else
+              System.out.println("El numero es IMPAR");
+          //aqui en esta estructura no se utiliza llave
+          //solamente se hace un bloque de código
+          
+          int varNum1 = 1, varNum2 = 4;
+          int varNum3 = varNum1 + 6 - varNum2;
+          System.out.println("varNum3 = "+ varNum3);
+              //1+6-4=3
+          varNum1 += 1; //varNum1 + varNum1 + 1;
+          System.out.println("varNum1 = " + varNum1);
+          
+          
+          
     }
+    
+    
+    
 } 
