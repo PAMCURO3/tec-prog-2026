@@ -23,4 +23,4 @@ public class EjercicioRectangulo {
 
         entrada.close();
     }
-}
+} 
