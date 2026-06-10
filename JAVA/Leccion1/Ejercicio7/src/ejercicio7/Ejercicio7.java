@@ -28,4 +28,4 @@ public class Ejercicio7 {
         System.out.println("El salario mensual es:$ "+salarioTotal); 
     }
      
-}
+} 
