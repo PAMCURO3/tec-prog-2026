@@ -229,7 +229,11 @@ public class HolaMundo {
           System.out.println("VarA = " + varA);
           System.out.println("varB = " + varB);//El resultado ser´un numero negativo
           
-          
+          //Operador de Negacion
+          var varC = true; //esta literal por default en Java es de tipo booleano
+          var varD = !varC; //aqui esta invirtiendo el valor
+          System.out.println("varC = " + varC);
+          System.out.println("varD = " + varD);
           
     }
     
