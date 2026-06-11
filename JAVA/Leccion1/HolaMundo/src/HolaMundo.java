@@ -234,7 +234,18 @@ public class HolaMundo {
           var varD = !varC; //aqui esta invirtiendo el valor
           System.out.println("varC = " + varC);
           System.out.println("varD = " + varD);
-          
+     
+          //Operadores Unarios Incremento Decremento
+          var varE = 11; //se va a modificar su valor
+          var varF = ++varE;//simbolo antes de la variable
+          //Primero se incrementa la variable y despues se usa su valor
+          System.out.println("varE = " + varE);//se incrementa en la unidad
+          System.out.println("varF = " + varF);// va a sumar uno
+          //Postincremento del simbolo va despues de la variable
+          var varG = 3;
+          var varH = varG++;//primero el valor de la variable, luego el incremento
+          System.out.println("varG = " + varG);
+          System.out.println("varH = " + varH);
     }
     
     
