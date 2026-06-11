@@ -165,7 +165,7 @@ public class HolaMundo {
  //       System.out.println("fraseChar = " + fraseChar); 
  
  //       Operdores aritméticos
-          int num1 = 6 , num2 = 4; //No se puede asignar valor con la inferencia de tipo
+          /*int num1 = 6 , num2 = 4; //No se puede asignar valor con la inferencia de tipo
           var solucion = num1 + num2;
          //System.out.println( num1 + num2);
           System.out.println("Solucion de la suma = " + solucion);
@@ -221,8 +221,19 @@ public class HolaMundo {
           int varNum12 = varNum10 / 6 / varNum11;
           System.out.println("varNum12 = " + varNum12);
           varNum10 %= 6; 
-          System.out.println("varNum12 = " + varNum12);
+          System.out.println("varNum12 = " + varNum12);*/
+          
+          //Operadores Unarios- Cambio de signo
+          var varA = 7;
+          var varB = -varA;
+          System.out.println("VarA = " + varA);
+          System.out.println("varB = " + varB);//El resultado ser´un numero negativo
+          
+          
+          
     }
+    
+    
     
     
     
