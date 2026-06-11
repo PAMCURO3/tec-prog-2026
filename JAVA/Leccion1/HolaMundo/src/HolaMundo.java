@@ -298,7 +298,7 @@ public class HolaMundo {
             System.out.println("Es menor de edad");
         }*/
         //Operadores condicionales AND
-        var valorA = 7;
+        /*var valorA = 7;
         var valorMinimo = 0;//para crear un rango del 0 al 10
         var valorMaximo = 10;
         var respuesta = valorA >= 0 && valorA <= 10;
@@ -315,8 +315,25 @@ public class HolaMundo {
             System.out.println("Papa puede asistir al juego del hijo");
         } else {
             System.out.println("Papa no puede asistir al juego del hijo");
-        }
-
+        }*/
+        //Operador Ternario
+        var resultadoT = (5 > 8) ? "verdadero" : "Falso";
+        System.out.println("El resultado es: " + resultadoT);
+        
+        var numeroT = 7;
+        resultadoT = (numeroT % 2 == 0) ? "Es Par" : "Es Impar";
+        System.out.println("resultadoT = " + resultadoT);
+        
+        
+        
+        
+       
+        
+        
+        
+        
+        
+        
     }
 
 }
