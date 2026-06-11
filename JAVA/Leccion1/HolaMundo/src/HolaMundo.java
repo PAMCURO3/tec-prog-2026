@@ -260,10 +260,20 @@ public class HolaMundo {
           //Operadores de igualdad y relacionales
           var aNum = 5;
           var bNum = 4;
-          var cNum = (aNum == bNum);
+          var cNum = (aNum == bNum); //los parentesis son opcionales
           System.out.println("cNum = " + cNum);
           
-          var dNum = aNum != bNum;
+          //Operador de diferencia
+          var dNum = aNum != bNum; //sin parentesis y no hay inconvenientes
           System.out.println("dNum = " + dNum);
+          
+          //Operadores con Cadena
+          var cadenaA = "Hello";
+          var cadenaB = "bye bye";
+          var cVar = cadenaA == cadenaB;
+          System.out.println("cVar = " + cVar);
+          
+          
+          
     }   
 } 
