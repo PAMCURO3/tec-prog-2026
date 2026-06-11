@@ -251,7 +251,7 @@ public class HolaMundo {
           System.out.println("varK = " + varK);
           System.out.println("varL = " + varL);*/
         //Operadores de igualdad y relacionales
-        var aNum = 5;
+        /*var aNum = 5;
         var bNum = 4;
         var cNum = (aNum == bNum); //los parentesis son opcionales
         System.out.println("cNum = " + cNum);
@@ -278,7 +278,7 @@ public class HolaMundo {
         /* var hVar = aNum > bNum;
           System.out.println("hVar = " + hVar);*/
 
-        if (aNum % 2 == 0) {
+        /*if (aNum % 2 == 0) {
             System.out.println("Tu numero es PAR");
         } else {
             System.out.println("Tu numero es IMPAR");
@@ -296,8 +296,21 @@ public class HolaMundo {
             System.out.println("Es mayor de edad");
         } else {
             System.out.println("Es menor de edad");
-        }
-
+        }*/
+        
+        //Operadores condicionales and y or
+        var valorA = 7;
+        var valorMinimo = 0;//para crear un rango del 0 al 10
+        var valorMaximo = 10;
+        var respuesta = valorA >= 0 && valorA <= 10;
+                
+        if(respuesta)
+            System.out.println("Esta dentro del rango establecido");
+        else
+            System.out.println("Esta fuera del rango establecido");
+        
+        
+        
     }
 
 }
