@@ -278,7 +278,7 @@ public class HolaMundo {
         /* var hVar = aNum > bNum;
           System.out.println("hVar = " + hVar);*/
 
-        /*if (aNum % 2 == 0) {
+ /*if (aNum % 2 == 0) {
             System.out.println("Tu numero es PAR");
         } else {
             System.out.println("Tu numero es IMPAR");
@@ -297,20 +297,26 @@ public class HolaMundo {
         } else {
             System.out.println("Es menor de edad");
         }*/
-        
-        //Operadores condicionales and y or
+        //Operadores condicionales AND
         var valorA = 7;
         var valorMinimo = 0;//para crear un rango del 0 al 10
         var valorMaximo = 10;
         var respuesta = valorA >= 0 && valorA <= 10;
-                
-        if(respuesta)
+        if (respuesta) {
             System.out.println("Esta dentro del rango establecido");
-        else
+        } else {
             System.out.println("Esta fuera del rango establecido");
-        
-        
-        
+        }
+
+        //Operadores condionales OR
+        var vacaciones = false;
+        var diaLibre = true;
+        if (vacaciones || diaLibre) { // || operador OR condicional actua como uno u otro da un verdadero 
+            System.out.println("Papa puede asistir al juego del hijo");
+        } else {
+            System.out.println("Papa no puede asistir al juego del hijo");
+        }
+
     }
 
 }
