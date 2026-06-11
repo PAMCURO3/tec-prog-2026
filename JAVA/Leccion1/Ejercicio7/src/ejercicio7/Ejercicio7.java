@@ -1,4 +1,4 @@
-
+//Clase 8
 package ejercicio7;
 
 import java.util.Scanner;
