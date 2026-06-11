@@ -317,23 +317,26 @@ public class HolaMundo {
             System.out.println("Papa no puede asistir al juego del hijo");
         }*/
         //Operador Ternario
-        var resultadoT = (5 > 8) ? "verdadero" : "Falso";
+        /*var resultadoT = (5 > 8) ? "verdadero" : "Falso";
         System.out.println("El resultado es: " + resultadoT);
         
         var numeroT = 7;
         resultadoT = (numeroT % 2 == 0) ? "Es Par" : "Es Impar";
-        System.out.println("resultadoT = " + resultadoT);
-        
-        
-        
-        
-       
-        
-        
-        
-        
-        
-        
+        System.out.println("resultadoT = " + resultadoT);*/
+        //Prioridad de Operadores
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("x = " + x); //6
+        System.out.println("y = " + y); //9
+        System.out.println("z = " + z); //16 antes de restarle uno a "Y" sumo 10 +6 
+
+        var solucionAritmetica = 4 + 5 * 6 / 3; //30/3 = 10 + 4 = 14
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
+
+        solucionAritmetica = (4 + 5) * 6 / 3; // 18
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
+                
     }
 
 }
