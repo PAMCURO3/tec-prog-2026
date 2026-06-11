@@ -224,7 +224,7 @@ public class HolaMundo {
           System.out.println("varNum12 = " + varNum12);*/
           
           //Operadores Unarios- Cambio de signo
-          var varA = 7;
+          /*var varA = 7;
           var varB = -varA;
           System.out.println("VarA = " + varA);
           System.out.println("varB = " + varB);//El resultado ser´un numero negativo
@@ -255,10 +255,13 @@ public class HolaMundo {
           var varK = 8;
           var varL = varK--;
           System.out.println("varK = " + varK);
-          System.out.println("varL = " + varL);
+          System.out.println("varL = " + varL);*/
       
-          
-          
+          //Operadores de igualdad y relacionales
+          var aNum = 5;
+          var bNum = 4;
+          var cNum = (aNum == bNum);
+          System.out.println("cNum = " + cNum);
           
     }   
 } 
