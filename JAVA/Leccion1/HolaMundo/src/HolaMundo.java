@@ -220,7 +220,7 @@ public class HolaMundo {
           int varNum10 = 60, varNum11 = 4;
           int varNum12 = varNum10 / 6 / varNum11;
           System.out.println("varNum12 = " + varNum12);
-          varNum10 %= 6;
+          varNum10 %= 6; 
           System.out.println("varNum12 = " + varNum12);
     }
     
