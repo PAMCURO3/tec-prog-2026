@@ -269,9 +269,14 @@ public class HolaMundo {
           
           //Operadores con Cadena
           var cadenaA = "Hello";
-          var cadenaB = "bye bye";
+          var cadenaB = "Hello";
           var cVar = cadenaA == cadenaB;
           System.out.println("cVar = " + cVar);
+          //equals comparacion de referencia de objetos 
+          //viendo si los contenidos de cadena tipo 
+          //string son iguales
+          var fVar = cadenaA.equals(cadenaB);
+          System.out.println("fVar = " + fVar);
           
           
           
