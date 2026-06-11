@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class HolaMundo {
 
     public static void main(String[] args) {
-            /*System.out.println("Hola Mundo desde Java");  
+        /*System.out.println("Hola Mundo desde Java");  
         
         int miVariable = 10;
         System.out.println(miVariable);
@@ -15,9 +15,9 @@ public class HolaMundo {
         System.out.println(miVariableCadena);
         miVariableCadena = "Sigamos creciendo en programación";
         System.out.println(miVariableCadena);
-             */
-            //Var- Inferencia tipos en Java
-            /*var miVariableEntera2 = 10;
+         */
+        //Var- Inferencia tipos en Java
+        /*var miVariableEntera2 = 10;
         var miVariableCadena2 = "Seguimos estudiando";
         System.out.println("miVariableEntera2 = " + miVariableEntera2);
         System.out.println("miVariableCadena2 = " + miVariableCadena2);
@@ -47,8 +47,8 @@ public class HolaMundo {
         System.out.println("Comillas Simples: \'"+ nombre+"\'");
         System.out.println("Comillas doblres: \""+nombre+"\"");*/
 
-            //Clase scanner
-            /*Scanner entrada = new Scanner(System.in);
+        //Clase scanner
+        /*Scanner entrada = new Scanner(System.in);
         System.out.println("Digite su nombre: ");
         var usuario2 = entrada.nextLine();
         System.out.println("usuario2 = " + usuario2);
@@ -113,8 +113,7 @@ public class HolaMundo {
         System.out.println("varEnteroChar = " + varEnteroChar);
         int caracterChar = 'b';
         System.out.println("caracterChar = " + caracterChar);
-        */
-        
+         */
         //tipos primitivos tipos booleanos
         /*boolean varBool = true;
         System.out.println("varBool = " + varBool);
@@ -135,11 +134,10 @@ public class HolaMundo {
             System.out.println("Eres menor de edad");
         }  */
         //conversión de tipos primitivos
-       /* var edad = Integer.parseInt("20");
+        /* var edad = Integer.parseInt("20");
         System.out.println("edad = " + (edad +1)); 
         var valorPI = Double.parseDouble("3.1416");
         System.out.println("valorPI = " + valorPI);*/
-        
         //Pedir un valor
         var entrada = new Scanner(System.in);
 //            System.out.println("Digite su edad");
@@ -153,19 +151,16 @@ public class HolaMundo {
 //        }*/
         //Convertir tipos primitivos en java parte 2
         // de un tipo entero a un tipo string
-       
- //      var edadTexto = String.valueOf(10);
- //      System.out.println("edadTexto = " + edadTexto);
-       
- //      var fraseChar = "Programadores".charAt(4);
- //      System.out.println("fraseChar = " + fraseChar);
-       
- //       System.out.println("Digite un caracter: ");
+
+        //      var edadTexto = String.valueOf(10);
+        //      System.out.println("edadTexto = " + edadTexto);
+        //      var fraseChar = "Programadores".charAt(4);
+        //      System.out.println("fraseChar = " + fraseChar);
+        //       System.out.println("Digite un caracter: ");
 //        fraseChar =entrada.nextLine().charAt(0);
- //       System.out.println("fraseChar = " + fraseChar); 
- 
- //       Operdores aritméticos
-          /*int num1 = 6 , num2 = 4; //No se puede asignar valor con la inferencia de tipo
+        //       System.out.println("fraseChar = " + fraseChar); 
+        //       Operdores aritméticos
+        /*int num1 = 6 , num2 = 4; //No se puede asignar valor con la inferencia de tipo
           var solucion = num1 + num2;
          //System.out.println( num1 + num2);
           System.out.println("Solucion de la suma = " + solucion);
@@ -222,9 +217,8 @@ public class HolaMundo {
           System.out.println("varNum12 = " + varNum12);
           varNum10 %= 6; 
           System.out.println("varNum12 = " + varNum12);*/
-          
-          //Operadores Unarios- Cambio de signo
-          /*var varA = 7;
+        //Operadores Unarios- Cambio de signo
+        /*var varA = 7;
           var varB = -varA;
           System.out.println("VarA = " + varA);
           System.out.println("varB = " + varB);//El resultado ser´un numero negativo
@@ -256,29 +250,54 @@ public class HolaMundo {
           var varL = varK--;
           System.out.println("varK = " + varK);
           System.out.println("varL = " + varL);*/
-      
-          //Operadores de igualdad y relacionales
-          var aNum = 5;
-          var bNum = 4;
-          var cNum = (aNum == bNum); //los parentesis son opcionales
-          System.out.println("cNum = " + cNum);
-          
-          //Operador de diferencia
-          var dNum = aNum != bNum; //sin parentesis y no hay inconvenientes
-          System.out.println("dNum = " + dNum);
-          
-          //Operadores con Cadena
-          var cadenaA = "Hello";
-          var cadenaB = "Hello";
-          var cVar = cadenaA == cadenaB;
-          System.out.println("cVar = " + cVar);
-          //equals comparacion de referencia de objetos 
-          //viendo si los contenidos de cadena tipo 
-          //string son iguales
-          var fVar = cadenaA.equals(cadenaB);
-          System.out.println("fVar = " + fVar);
-          
-          
-          
-    }   
-} 
+        //Operadores de igualdad y relacionales
+        var aNum = 5;
+        var bNum = 4;
+        var cNum = (aNum == bNum); //los parentesis son opcionales
+        System.out.println("cNum = " + cNum);
+
+        //Operador de diferencia
+        var dNum = aNum != bNum; //sin parentesis y no hay inconvenientes
+        System.out.println("dNum = " + dNum);
+
+        //Operadores con Cadena
+        var cadenaA = "Hello";
+        var cadenaB = "Hello";
+        var cVar = cadenaA == cadenaB;
+        System.out.println("cVar = " + cVar);
+        //equals comparacion de referencia de objetos 
+        //viendo si los contenidos de cadena tipo 
+        //string son iguales
+        var fVar = cadenaA.equals(cadenaB);
+        System.out.println("fVar = " + fVar);
+
+        //Operadores relacionales mayor o menor
+        var gVar = aNum != bNum; //relaciones de una variable y otra
+        System.out.println("gVar = " + gVar);
+        //Operadores relacionales > < <= >= !=
+        /* var hVar = aNum > bNum;
+          System.out.println("hVar = " + hVar);*/
+
+        if (aNum % 2 == 0) {
+            System.out.println("Tu numero es PAR");
+        } else {
+            System.out.println("Tu numero es IMPAR");
+        }
+
+        if (bNum % 2 == 0) {
+            System.out.println("Tu numero es PAR");
+        } else {
+            System.out.println("Tu numero es IMPAR");
+        }
+
+        var edad = 15;
+        var adulto = 18;
+        if (edad >= adulto) {
+            System.out.println("Es mayor de edad");
+        } else {
+            System.out.println("Es menor de edad");
+        }
+
+    }
+
+}
