@@ -245,11 +245,20 @@ public class HolaMundo {
           var varG = 3;
           var varH = varG++;//primero el valor de la variable, luego el incremento
           System.out.println("varG = " + varG);
-          System.out.println("varH = " + varH);
-    }
-    
-    
-    
-    
-    
+          System.out.println("varH = " + varH);  
+          //Operadores unarios de decremento
+          var varI = 4;
+          var varJ = --varI;
+          System.out.println("varI = " + varI);//la variable i ya va a estar con decremento
+          System.out.println("varJ = " + varJ);
+          //post decremento
+          var varK = 8;
+          var varL = varK--;
+          System.out.println("varK = " + varK);
+          System.out.println("varL = " + varL);
+      
+          
+          
+          
+    }   
 } 
