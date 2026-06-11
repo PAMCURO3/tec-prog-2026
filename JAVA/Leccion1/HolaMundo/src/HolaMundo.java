@@ -263,5 +263,7 @@ public class HolaMundo {
           var cNum = (aNum == bNum);
           System.out.println("cNum = " + cNum);
           
+          var dNum = aNum != bNum;
+          System.out.println("dNum = " + dNum);
     }   
 } 
