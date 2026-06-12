@@ -55,7 +55,7 @@ public class HolaMundo {
         System.out.println("Escriba el título: ");
         var titulo2 = entrada.nextLine();
         System.out.println("Resultado: "+titulo2+" "+usuario2);*/
- /* byte numEnteroByte = (byte)127;
+        /* byte numEnteroByte = (byte)127;
         System.out.println("numEnteroByte = " + numEnteroByte);
         System.out.println("Valor minimo del byte: "+ Byte.MIN_VALUE);
         System.out.println("Valor maximo del byte: "+ Byte.MAX_VALUE);
@@ -74,7 +74,7 @@ public class HolaMundo {
         System.out.println("numEnteroLong = " + numEnteroLong);
         System.out.println("Valor minimo del Long: "+ Long.MIN_VALUE);
         System.out.println("Valor maximo del Long: "+ Long.MAX_VALUE);*/
- /*float numFloat = 3.4028235E38F;
+        /*float numFloat = 3.4028235E38F;
         System.out.println("numFloat = " + numFloat);
         System.out.println("El valor minimo de float: " + Float.MIN_VALUE);
         System.out.println("El valor maximo de float: " + Float.MAX_VALUE);
