@@ -9,9 +9,9 @@
 target/
 build/
 .gradle/
-.idea/
 .vscode/
 *.log
+.idea/
 
 node_modules/
 .env
