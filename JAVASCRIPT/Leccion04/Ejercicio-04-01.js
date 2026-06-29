@@ -84,3 +84,67 @@ const fechaNacimiento2 = 2006;
 console.log(fechaNacimiento2);
 fechaNacimiento3 = 2003;
 console.log(fechaNacimiento3); //Solo se ejecuta el console anterior
+
+// Hacer un ejercicio similar al que está hecho, pero ahora con los
+//meses del año, debes hacerlo con la estructura switch y luego con
+//la función mejorada
+//Dry dont't repeat yourself: Evitar repetir tu código
+//Crear una función como la de getDay para los meses del año
+
+function getMonth(month) {
+
+    let months = 1;
+
+    switch (month) {
+        case 1:
+            console.log("Estamos en Enero")
+            break;
+        case 2: 
+            console.log("Estamos en Febrero")
+            break;
+        case 3:
+            console.log("Estamos en Marzo")
+            break;
+        case 4:
+            console.log("Estamos en Abril")
+            break;
+        case 5:
+            console.log("Estamos en Mayo")
+            break;
+        case 6:
+            console.log("Estamos en Junio")
+            break;
+        case 7:
+           console.log("Estamos en Julio")
+           break;
+        case 8:
+           console.log("Estamos en Agosto")
+           break;
+        case 9:
+            console.log("Estamos en Septiembre")
+            break;
+        case 10:
+            console.log("Estamos en Octubre")
+            break;
+        case 11:
+            console.log("Estamos en Noviembre")
+            break;
+        case 12:
+            console.log("Estamos en Diciembre")
+            break;
+        default:
+            console.log("Error en el ingreso del mes del año")
+            break;
+    }
+}
+
+//Esta es la opción mejorada
+
+let months2 = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre","Octubre","Noviembre","Diciembre"]
+function getMonth2(n){
+    if(n < 1 || n > 12){
+        throw new Error('out of range');
+    }
+    return months2[n-1]
+}
+console.log(getMonth2(11));
