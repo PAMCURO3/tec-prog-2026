@@ -19,3 +19,4 @@ public class Ejercicio01 {
          System.out.println("El programa ha finalizado por numero negativo");  
     }
 }
+ 
