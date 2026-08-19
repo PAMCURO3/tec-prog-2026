@@ -17,7 +17,6 @@ public class EjercicioCiclosClass2 {
             System.out.println("El numero "+numero+ " elevado al cuadrado es: "+cuadrado);
             System.out.println("Digite otro numero: ");
             numero = Integer.parseInt(entrada.nextLine());
-            
         }
         System.out.println("El programa ha finalizado por numero negativo");  
         
