@@ -1,7 +1,116 @@
-/JAVA/HolaMundo/nbproject/private/
-/JAVA/HolaMundo/build/
-/JAVA/Leccion1/HolaMundo/nbproject/private/
-/JAVA/Leccion1/HolaMundo/build/
-/JAVA/Leccion1/JavaApplication3/nbproject/private/
-/JAVA/Leccion1/Ejercicio_1/nbproject/private/
-/JAVA/Leccion1/Ejercicio_1/build/
+#################################################
+# IntelliJ IDEA / PyCharm
+#################################################
+
+.idea/
+*.iml
+out/
+
+#################################################
+# NetBeans
+#################################################
+
+nbproject/private/
+nbbuild/
+dist/
+build/
+
+#################################################
+# Eclipse
+#################################################
+
+.project
+.classpath
+.settings/
+
+#################################################
+# Java
+#################################################
+
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+#################################################
+# Python
+#################################################
+
+_pycache_/
+*.py[cod]
+*$py.class
+
+venv/
+.venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+#################################################
+# JavaScript / Node.js
+#################################################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#################################################
+# Visual Studio Code
+#################################################
+
+.vscode/
+
+#################################################
+# Sistema Operativo
+#################################################
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#################################################
+# Archivos temporales
+#################################################
+
+*.tmp
+*.temp
+*.swp
+*.bak
+*.log
+
+#################################################
+# Archivos de configuración local
+#################################################
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#################################################
+# Archivos de compilación
+#################################################
+
+target/
+bin/
+obj/
+
+#################################################
+# Archivos de usuario
+#################################################
+
+*.orig
+*.rej
+# NetBeans private
+**/nbproject/private/
+*/nbproject/private/*
+
+APUNTES/
